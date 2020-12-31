@@ -25,7 +25,7 @@ To edit this repository in MakeCode.
 This image shows the blocks code from the last commit in master.
 This image may take a few minutes to refresh.
 
-![A rendered view of the blocks](Microbit.Car/blocks.PNG)
+![A rendered view of the blocks](Microbit.Car/Blocks.PNG)
 
 #### Metadata (used for search, rendering)
 
