@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Microbit.RemoteControl"
+             x:Class="Microbit.RemoteControl.MainPage">
+
+    <StackLayout>
+        <Label FontSize="Medium"
+               HorizontalOptions="Center"
+               FontAttributes="Bold" 
+               Text="Micro:bit Car remote control" />
+        <Button Text="CONNECT" Clicked="OnConnectClicked" />
+
+        <ImageButton Source="right_arrow.jpg"
+                     IsEnabled="{Binding Connected}"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="OnMoveClicked" />
+        <ImageButton Source="stop.jpg"
+                     IsEnabled="{Binding Connected}"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="OnStopClicked" />
+        <ImageButton Source="left_arrow.jpg"
+                     IsEnabled="{Binding Connected}"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    Clicked="OnBackClicked" />
+
+    </StackLayout>
+
+</ContentPage>

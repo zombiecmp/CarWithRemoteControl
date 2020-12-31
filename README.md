@@ -1,5 +1,7 @@
 
-> Open this page at [https://zombiecmp.github.io/carwithremotecontrol/](https://zombiecmp.github.io/carwithremotecontrol/)
+># Micro:bit car with remote control
+
+This is a simple car example using a micro:bit card, two continuous servo motors (driving the wheels), and a mobile application as a remote control.
 
 ## Use as Extension
 
@@ -23,7 +25,7 @@ To edit this repository in MakeCode.
 This image shows the blocks code from the last commit in master.
 This image may take a few minutes to refresh.
 
-![A rendered view of the blocks](https://github.com/zombiecmp/carwithremotecontrol/raw/master/.github/makecode/blocks.png)
+![A rendered view of the blocks](Microbit.Car/blocks.PNG)
 
 #### Metadata (used for search, rendering)
 
